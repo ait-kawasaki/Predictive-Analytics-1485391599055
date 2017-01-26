@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: Predictive Analytics
+  host: AIT-kawa-Predictive-Analytics-test
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - IBM Watson Machine Learning-iu
